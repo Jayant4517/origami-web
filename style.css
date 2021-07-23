@@ -1,0 +1,65 @@
+h1{
+    background-color: #00ffff;    
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+}
+
+.grid{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+p,h2{
+    text-align: center;
+    font-style: italic;
+}
+body{
+    background-image: url("plasmaball.jpg");
+    background-size: 1500px;
+    color: #ff0000;
+}
+.site-description{
+    text-align: end;
+    margin-top: 220px;
+    
+
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: brown;
+}
+.site-description a{
+    background-color: burlywood;
+    margin-left: 20px;
+    border: solid
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
